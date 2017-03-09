@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+repository=docker.io/activatedio
+name=consul-template-nginx
+tag=latest
+
