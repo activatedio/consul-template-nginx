@@ -9,6 +9,8 @@ RUN cp consul-template /usr/local/bin
 RUN rm consul-template.zip
 COPY start-or-reload-nginx.sh /
 RUN chmod 755 /start-or-reload-nginx.sh
+COPY run.sh /
+RUN chmod 755 /run.sh
 
 
 
